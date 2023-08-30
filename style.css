@@ -40,6 +40,13 @@ body {
   left: 0;
 }
 
+.left img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.4;
+}
+
 .right {
   width: 50%;
 }
